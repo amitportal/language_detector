@@ -221,9 +221,9 @@ class ScriptDetector:
 
         out_path = Path(out_path) if out_path else path.with_stem(path.stem + "_lang")
         if ext == ".csv":
-            df_out.to_csv(out_path, index=False)
+            df_out.to_csv(out_path, index=False, encoding="utf-8-sig")  # ensures BOM for Indic text support
         else:
-            df_out.to_excel(out_path, index=False)
+            df_out.to_excel(out_path, index=False, engine="openpyxl")
         return out_path
 
     # ------------------------------------------------------------------
