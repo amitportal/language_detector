@@ -10,7 +10,6 @@ A complete reference for \`\` (v 2.0). Install, import, or run the detector fr
 | ------- | ------- |
 |         |         |
 | **Supported scripts** | Devanagari `hi`, Gujarati `gu`, Gurmukhi `pa`, Bengali `bn`, Odia `or`, Tamil `tam`, Telugu `te`, Kannada `kn`, Malayalam `ml`, Urdu/Arabic `ur`, ASCII/Latin `en` |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Algorithm**         | Unicode‑range lookup on up to *N* significant code‑points (default = 6) → deterministic, no ML                                                                     |
 | **Speed**             | \~10–15 M detections/sec; column‑wise unique‑value scanning to avoid repeats                                                                                       |
 | **Confidence score**  | proportion ∈ [0, 1] of inspected characters that match winning script                                                                                              |
