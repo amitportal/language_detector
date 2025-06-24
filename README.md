@@ -25,7 +25,7 @@ A complete reference for \`\` (v 2.0). Install, import, or run the detector fr
 
 ```bash
 # clone repo
-git clone [(https://github.com/amitportal/language_detector)](https://github.com/amitportal/language_detector)
+git clone https://github.com/amitportal/language_detector
 cd script‑detector
 
 # optional: create venv
